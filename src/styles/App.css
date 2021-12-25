@@ -59,6 +59,18 @@
   background-size: 200% 200%;
   animation: gradient-animation 4s ease infinite;
   margin-right: 15px;
+  height: 45px;
+  border: 0;
+  width: auto;
+  padding-left: 40px;
+  padding-right: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mint-button:disabled{
+  background:#bebebe;
+  cursor: not-allowed;
 }
 
 .opensea-button {
